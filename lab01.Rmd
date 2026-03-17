@@ -1,0 +1,66 @@
+---
+title: "Lab 1 - Reproducible research with RMarkdown and Github"
+author: "Sangwon Yum"
+date: "`r Sys.Date()`"
+documentclass: article
+geometry: margin=1in
+fontsize: 11pt
+output:
+  pdf_document:
+    toc: false
+    df_print: kable
+    number_sections: no
+    dev: pdf
+    highlight: tango
+    extra_dependencies: ["float"]
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+# Set knitr options
+knitr::opts_chunk$set(
+  echo = TRUE, eval = TRUE, fig.width = 5,
+  fig.asp = 0.618, out.width = "80%", dpi = 120,
+  fig.position = "!h", cache = FALSE
+)
+# Load packages
+suppressPackageStartupMessages(library(tidyverse))
+# SangwonYum
+if (.Platform$OS.type == "unix") {
+  git_remote <- system('git config --get remote.origin.url', intern = TRUE)
+  git_user <- str_extract(git_remote, "lab-1-.+") %>% str_sub(start = 7)
+} else {
+  git_remote <- shell('git config --get remote.origin.url', intern = TRUE)
+  git_user <- str_extract(git_remote, "lab-1-.+") %>% str_sub(start = 7)
+}
+```
+
+---
+subtitle: "GitHub username: `r git_user`"
+---
+
+---
+
+## Exercise 2
+
+
+
+
+## Exercise 3
+
+
+
+## Exercise 4
+
+
+
+## Exercise 5
+
+
+
+
+## Exercise 6
+
+
+
+
