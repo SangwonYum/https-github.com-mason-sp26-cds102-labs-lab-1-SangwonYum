@@ -43,8 +43,37 @@ subtitle: "GitHub username: `r git_user`"
 
 ## Exercise 2
 
+| Column 1 | Column 2 | Column 3 | Column 4 |
+| --- | ---: | :---: | :--- |
+| Notice | what | the | colons |
+| are | doing? | | |
 
+Table: The table with poor spacing
 
+| Column 1 | Column 2 | Column 3 | Column 4 |
+| -------- | -------: | :------: | :------- |
+| Notice   | what     | the      | colons   |
+| are      | doing?   |          |          |
+
+Table: The table with good spacing
+
+Question 1: Do both tables look the same after being rendered?
+
+Answer: Yes, both tables look the same when the document is rendered. even though the spacing between the columns is different in the code, the final tables appear identical in the output. markdown ignores the extra spacing when it renders the table.
+
+Question 2: What are the snippets below each table doing?
+
+Answer: The snippets below each table define the alignment of the columns. the dashes (---) create the structure of the table, while the colons (:) control how the text is aligned. 
+
+--- means the column is left aligned by default 
+
+---: means the text is right aligned 
+
+:---: means the text is centered 
+
+:--- means left aligned with an explicit marker. 
+
+So these symbols tell markdown how each column should be formatted in the final table.
 
 ## Exercise 3
 
