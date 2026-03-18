@@ -99,7 +99,9 @@ Answer: When text is displayed as a code block, standard paragraph formatting di
 
 ## Exercise 5
 
+The Pythagorean theorem can be written as $c = \sqrt{a^2 + b^2}$.
 
+According to Newton's second law, acceleration can be written as $a = \frac{F}{m}$.
 
 
 ## Exercise 6
