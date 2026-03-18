@@ -77,7 +77,10 @@ So these symbols tell markdown how each column should be formatted in the final 
 
 ## Exercise 3
 
+![Flowchart of the knitting process in RMarkdown](knitting-process.png)
+Question: What does the text inside the square brackets do?
 
+Answer: The text inside the square brackets is the image caption or alternative text. It describes the image and will appear if the image cannot be displayed. It also helps readers understand what the image represents.
 
 ## Exercise 4
 
