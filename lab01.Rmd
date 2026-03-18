@@ -106,7 +106,7 @@ According to Newton's second law, acceleration can be written as $a = \frac{F}{m
 
 ## Exercise 6
 
-```{r, warning=FALSE}
+```{r, warning = FALSE}
 qplot(x = sleep_total, y = sleep_rem, data = msleep)
 ```
 
