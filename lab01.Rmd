@@ -59,7 +59,7 @@ Table: The table with good spacing
 
 Question 1: Do both tables look the same after being rendered?
 
-Answer: Yes, both tables look the same when the document is rendered. even though the spacing between the columns is different in the code, the final tables appear identical in the output. markdown ignores the extra spacing when it renders the table.
+Answer: Yes, both tables look the same when the document is rendered. Even though the spacing between the columns is different in the code, the final tables appear identical in the output. Markdown ignores the extra spacing when it renders the table.
 
 Question 2: What are the snippets below each table doing?
 
@@ -94,7 +94,7 @@ Answer: The four spaces before the second paragraph turn the text into a code bl
 
 Question 2: Why might this make the text harder to read?
 
-Answer: When text is displayed as a code block, standard paragraph formatting disappears. due to differences in font and spacing, long text like the example above is cut off at the end, making it difficult to read at a glance. code blocks are more suitable for displaying code than for regular text.
+Answer: When text is displayed as a code block, standard paragraph formatting disappears. Due to differences in font and spacing, it can be harder to read because the formatting is different from normal text. This makes it difficult to read at a glance. Also code blocks are more suitable for displaying code than for regular text.
 
 
 ## Exercise 5
