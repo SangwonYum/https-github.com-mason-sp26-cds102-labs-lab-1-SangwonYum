@@ -84,6 +84,17 @@ Answer: The text inside the square brackets is the image caption or alternative 
 
 ## Exercise 4
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+Question 1: What effect do the four spaces before the second paragraph have?
+
+Answer: The four spaces before the second paragraph turn the text into a code block. instead of being rendered as normal text, it is displayed in a fixed-width font and formatted like code.
+
+Question 2: Why might this make the text harder to read?
+
+Answer: When text is displayed as a code block, standard paragraph formatting disappears. due to differences in font and spacing, long text like the example above is cut off at the end, making it difficult to read at a glance. code blocks are more suitable for displaying code than for regular text.
 
 
 ## Exercise 5
