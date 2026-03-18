@@ -110,4 +110,6 @@ According to Newton's second law, acceleration can be written as $a = \frac{F}{m
 qplot(x = sleep_total, y = sleep_rem, data = msleep)
 ```
 
+Question: What does 'warning = FALSE' do?
 
+Answer: The final output does not display warning messages when the option `warning = FALSE` is used. When the document is rendered, any warnings are hidden, but the code continues to function normally.
